@@ -1,0 +1,31 @@
+body{
+
+    background-color: red;
+}
+.toparea{
+    padding:50px 0;
+    background:green;
+}
+.toparea img{
+    width:120px;
+    height: 120px;
+}
+.toparea h1{
+   text-align:center;
+   color:white;
+}
+.box{
+    padding:50px 0;
+}
+.box{
+    margin:10px;
+    overflow:hidden;
+}
+.box img{
+    width:100%;
+    height:auto;
+    transition:all 4s;
+}
+.box img:hover{
+    transform:scale(1.2,1.2);
+}
